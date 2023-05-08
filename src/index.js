@@ -16,7 +16,7 @@ const createWindow = () => {
     },
   });
 
-  win.loadURL("https://spectre-audio.vercel.app/");
+  mainWindow.loadURL("https://spectre-audio.vercel.app/");
 };
 
 // This method will be called when Electron has finished
